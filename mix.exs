@@ -37,7 +37,7 @@ defmodule Torch.Mixfile do
   #
   # Type "mix help deps" for more examples and options
   defp deps do
-    [{:filtrex, "~> 0.3.0"},
+    [{:filtrex, github: "rcdilorenzo/filtrex", override: true},
      {:phoenix, "~> 1.2"},
      {:phoenix_html, "~> 2.9"},
      {:ecto, "~> 2.1.2"},
